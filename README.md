@@ -1,2 +1,2 @@
 # ComAD
-The code will be available before July
+The code will be available before June
