@@ -15,6 +15,6 @@ python seg_image.py --datasetpath .../mvtec_loco/
 # Run logical_anomaly_detection.py (make sure you have previously finished seg_image.py)
 python logical_anomaly_detection.py
 # Acknowledgement
-We use some codes from https://github.com/mhamilton723/STEGO, https://github.com/amazon-science/patchcore-inspection, and https://github.com/VitjanZ/DRAEM. A big thanks to their great work!
+We use some codes from https://github.com/mhamilton723/STEGO, https://github.com/facebookresearch/dino, https://github.com/amazon-science/patchcore-inspection, and https://github.com/VitjanZ/DRAEM. A big thanks to their great work!
 
 
