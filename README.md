@@ -3,7 +3,7 @@ This is the official code for paper entitled "Component-aware anomaly detection 
 
 Due to the randomness of KMeans, the results of each experiment will vary. For the original paper, we ran a total of five times and took the average value. 
 
-If you have any question, you could also contact ltk98633@stu.xjtu.edu.cn , both in English or in Chinese is OK.
+If you have any question, you could also contact ltk98633@stu.xjtu.edu.cn
 
 We will refine the code after the review.
 # Preparation
