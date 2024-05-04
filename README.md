@@ -37,21 +37,14 @@ Then run (make sure you have previously finished seg_image.py)
 ## Citation 
 If you find this work helpful to your project, please cite
 ```
-@article{ WOS:001075854900001,
-Author = {Liu, Tongkun and Li, Bing and Du, Xiao and Jiang, Bingke and Jin, Xiao
-   and Jin, Liuyi and Zhao, Zhuo},
-Title = {Component-aware anomaly detection framework for adjustable and logical
-   industrial visual inspection},
-Journal = {ADVANCED ENGINEERING INFORMATICS},
-Year = {2023},
-Volume = {58},
-Month = {OCT},
-DOI = {10.1016/j.aei.2023.102161},
-EarlyAccessDate = {SEP 2023},
-Article-Number = {102161},
-ISSN = {1474-0346},
-EISSN = {1873-5320},
-Unique-ID = {WOS:001075854900001},
+@article{liu2023component,
+  title={Component-aware anomaly detection framework for adjustable and logical industrial visual inspection},
+  author={Liu, Tongkun and Li, Bing and Du, Xiao and Jiang, Bingke and Jin, Xiao and Jin, Liuyi and Zhao, Zhuo},
+  journal={Advanced Engineering Informatics},
+  volume={58},
+  pages={102161},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 # Acknowledgement
