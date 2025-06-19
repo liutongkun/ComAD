@@ -1,15 +1,14 @@
 # ComAD
 This is the official code for the paper entitled "Component-aware anomaly detection framework for adjustable and logical industrial visual inspection"
-
+Due to the randomness of KMeans, the results of each experiment will vary slightly. For the original paper, we ran a total of five times and took the average value. 
+If you have any questions, you could also contact ltk98633@stu.xjtu.edu.cn
 
 
 ## Erratum
 The DINO features used in this paper are extracted from the last Transformer block, rather than the first block as incorrectly stated in the text. Additionally, the corresponding model size is 21M parameters, not 1.9MB.
 
 
-Due to the randomness of KMeans, the results of each experiment will vary slightly. For the original paper, we ran a total of five times and took the average value. 
 
-If you have any questions, you could also contact ltk98633@stu.xjtu.edu.cn
 
 ## Preparation
 Our selected benchmarks include the following:
