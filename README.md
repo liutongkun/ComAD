@@ -1,16 +1,10 @@
 # ComAD
 This is the official code for the paper entitled "Component-aware anomaly detection framework for adjustable and logical industrial visual inspection"
 
-The latest version is on: https://www.sciencedirect.com/science/article/abs/pii/S1474034623002896
 
-The old version: https://arxiv.org/abs/2305.08509
 
-Different from existing image reconstruction-based or feature-based industrial anomaly detection methods, we propose a new component-based detection paradigm for adjustable and logical anomaly detection, as shown in (c)
-![Abstract2](https://github.com/liutongkun/FAIR/assets/59155313/fdfdc286-854d-4cac-adb9-09486f3d01f7)
-
-The overall detection process is:
-![Overall2](https://github.com/liutongkun/FAIR/assets/59155313/cd6d84ac-e91f-4417-b351-4a89688a84aa)
-
+## Erratum
+The DINO features used in this paper are extracted from the last Transformer block, rather than the first block as incorrectly stated in the text. Additionally, the corresponding model size is 21M parameters, not 1.9MB.
 
 
 Due to the randomness of KMeans, the results of each experiment will vary slightly. For the original paper, we ran a total of five times and took the average value. 
