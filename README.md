@@ -5,7 +5,7 @@ If you have any questions, you could also contact ltk98633@stu.xjtu.edu.cn
 
 
 ## Erratum
-The DINO features used in this paper are extracted from the last Transformer block, rather than the first block as incorrectly stated in the text. Additionally, the corresponding model size is 21M parameters, not 1.9MB.
+The DINO features used in this paper are extracted from the last Transformer block, rather than the first block as incorrectly stated in the paper. Additionally, the corresponding model size is 21M parameters, not 1.9MB.
 
 
 
