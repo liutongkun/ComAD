@@ -30,6 +30,7 @@ subdict={}
 class_num = 0
 auroc_log = 0
 auroc_stru = 0
+auroc_all = 0
 classlist = ['breakfast_box', 'juice_bottle', 'screw_bag', 'pushpins', 'splicing_connectors']
 sourcepath = '.'
 for classname in classlist:
@@ -145,14 +146,18 @@ for classname in classlist:
 
     all_labels_onlog = gt_test_good + gt_test_logical
     all_labels_onlystu = gt_test_good + gt_test_stru
+    all_labels = gt_test_good + gt_test_logical + gt_test_stru
 
     auroc_alllog = compute_imagewise_retrieval_metrics(all_socres_onlylo, all_labels_onlog)['auroc']
     auroc_onlystu = compute_imagewise_retrieval_metrics(all_socres_onlystru, all_labels_onlystu)['auroc']
-    print(f'{classname} auroc_logical: {auroc_alllog} auroc_stru: {auroc_onlystu}')
+    auroc_allscore = compute_imagewise_retrieval_metrics(all_socres, all_labels)['auroc']
+    print(f'{classname} auroc_logical: {auroc_alllog} auroc_stru: {auroc_onlystu} auroc_all: {auroc_allscore}')
     class_num = class_num + 1
     auroc_log = auroc_log + auroc_alllog
     auroc_stru = auroc_stru + auroc_onlystu
+    auroc_all = auroc_all + auroc_allscore
 
 auroc_log = auroc_log /class_num
 auroc_stru = auroc_stru /class_num
-print(f'average logical {auroc_log}, average stru {auroc_stru}')
+auroc_all = auroc_all /class_num
+print(f'average logical {auroc_log}, average stru {auroc_stru}, average all {auroc_all}')
