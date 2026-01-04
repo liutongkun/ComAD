@@ -1,0 +1,58 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / coverage / type check
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML artifacts / logs
+runs/
+logs/
+wandb/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Local datasets
+mvtec_loco/
+@mvtec_loco/
